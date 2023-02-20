@@ -72,3 +72,7 @@ values with `ups`, `battery`, `input` and `output` prefixes.
 An additional virtual sensor type `ups.status.display` is available
 translating the UPS status value retrieved from `ups.status` into a
 human-readable version.
+
+## Using NUT HA Addon
+Hostname that needs to be used to connect to is `a0d7b954-nut` (instead of `localhost`)
+(https://github.com/home-assistant/core/issues/75765#issuecomment-1329012118)
